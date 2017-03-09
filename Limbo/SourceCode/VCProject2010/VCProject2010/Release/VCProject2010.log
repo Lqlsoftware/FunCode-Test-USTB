@@ -1,0 +1,56 @@
+﻿生成启动时间为 2016/7/22 1:21:35。
+     1>项目“C:\Users\LqlSoft Computer\Desktop\Limbo\Limbo\SourceCode\VCProject2010\VCProject2010\VCProject2010.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\VCProject2010.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\VCProject2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         f:\VS2010\VC\bin\CL.exe /c /I../../Header /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\LessonX.cpp ..\..\Src\Main.cpp
+         LessonX.cpp
+     1>..\..\Src\LessonX.cpp(186): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\VS2010\VC\include\Stdio.h(234) : 参见“fopen”的声明
+     1>..\..\Src\LessonX.cpp(194): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\VS2010\VC\include\Stdio.h(253) : 参见“fscanf”的声明
+     1>..\..\Src\LessonX.cpp(279): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(286): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(662): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(678): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(945): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(946): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(946): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(955): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(956): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(956): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(965): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(966): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(966): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(975): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(976): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(976): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(1138): warning C4244: “参数”: 从“const int”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(1139): warning C4244: “参数”: 从“const int”转换到“const float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(1140): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>..\..\Src\LessonX.cpp(1420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\VS2010\VC\include\Stdio.h(234) : 参见“fopen”的声明
+         Main.cpp
+     1>..\..\Src\Main.cpp(85): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\..\Src\Main.cpp(85): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\..\Src\Main.cpp(85): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\VCTemplate.res" VCTemplate.rc 
+       Link:
+         f:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Bin\Game.exe" /INCREMENTAL:NO /NOLOGO Winmm.lib ..\..\Src\CommonAPI_2010.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Bin\Game.lib" /MACHINE:X86 Release\VCTemplate.res
+         Release\LessonX.obj
+         Release\Main.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>CommonAPI_2010.Lib(CommonAPI.obj) : warning LNK4204: “C:\Users\LqlSoft Computer\Desktop\Limbo\Limbo\SourceCode\VCProject2010\VCProject2010\Release\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+         VCProject2010.vcxproj -> C:\Users\LqlSoft Computer\Desktop\Limbo\Limbo\SourceCode\VCProject2010\VCProject2010\..\..\..\Bin\Game.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\VCProject2010.unsuccessfulbuild”。
+         正在对“Release\VCProject2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\LqlSoft Computer\Desktop\Limbo\Limbo\SourceCode\VCProject2010\VCProject2010\VCProject2010.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.65
