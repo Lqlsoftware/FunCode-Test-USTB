@@ -62,3 +62,10 @@ Coding test with FunCode Games in USTB 2016.7
 * Excited！
 * 年轻人，不要总想搞个大新闻。
 
+## **实验附加：Limbo地狱边境**
+
+[https://github.com/Lqlsoftware/FunCode-Test-USTB/tree/master/Limbo](https://github.com/Lqlsoftware/FunCode-Test-USTB/tree/master/Limbo)
+
+>Limbo地狱边境  -- 模仿原作制作 与原作仍有较大差距
+* 人物动画达到了30FPS
+* 闯关游戏
